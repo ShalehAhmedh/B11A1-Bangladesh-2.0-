@@ -11,7 +11,8 @@ body{
 /* Shared Styles */
 
 .semi-black{
-    color: #0E0E0E;
+    color: black;
+    opacity: 80%;
 }
 
 .light-green{
@@ -66,12 +67,19 @@ nav{
     display: flex;
     align-items: center;
     padding: 80px 100px;
+    height: 250px;
     justify-content: space-between;
     border-radius: 24px;
 }
 .ban-content{
     margin-right: 64px;
 }
+.ban-button{
+    color: black;
+    opacity: 50%;
+}
+
+
 .memorial{
     margin-left: 0px;
 }
@@ -89,7 +97,7 @@ nav{
     background-color: white;
     border-radius: 8px;
     margin-inline:calc(10px);
-    padding: 10px;
+    padding: 25px;
 }
 .c1{
     width: 64px;
@@ -169,13 +177,14 @@ nav{
     justify-content: center;
 }
 .tk{
-    padding: 15px 24px;
-    margin-right: 10px;
+    padding: 15px 30px;
+    margin-right: 20px;
     background-color: white;
     border: none;
     border-radius: 8px;
     font-size: 24px;
     font-weight: bolder;
+    opacity: 80%;
 }
 
 .amount{
@@ -183,7 +192,7 @@ nav{
 }
 
 .headline-font{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 800;
 }
 
@@ -205,9 +214,10 @@ footer{
 }
 .email-area{
     border: none;
-    border-radius: 8px;
+    border-radius: 8px 0px 0px 8px;
 }
 input[type=email]{
+    width: 250px;
     padding: 17px 34px;
     margin-left: 2px;
 }
@@ -217,14 +227,27 @@ input[type=email]{
     outline: none;
     font-size: 16px;
     font-weight: 500;
-    border-radius: 8px;
-    line-height: 1.4;
-    width: 500px;
-    height: 40px;
+    line-height: 1.6;
+    width: 600px;
+    height: 28px;
+    text-align: center;
 }
 .textarea:hover{
     cursor: pointer;
-    background-color: rgb(213, 187, 238);
+    background-color: rgb(245, 238, 252);
 }
 
+.email-area:hover{
+    cursor: pointer;
+    background-color: rgb(245, 238, 252);
+}
+.subscribe-btn{
+    color: white;
+    text-decoration: none;
+    background-color: #006A50;
+    border-style: none;
+    padding: 17px 34px;
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+}
 
