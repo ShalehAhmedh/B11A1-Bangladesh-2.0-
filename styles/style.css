@@ -1,0 +1,150 @@
+.fira-sans-regular{
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0 8%;
+}
+body{
+    background-color: #f1f1f1;
+}
+
+/* Shared Styles */
+
+.semi-black{
+    color: #0E0E0E;
+}
+
+.light-green{
+    background-color: #C6E4D6;
+}
+.btn{
+    color: white;
+    background-color: #006A50;
+    border-style: none;
+    border-radius: 8px;
+    padding: 17px 34px;
+}
+
+/* Navigation Styles */
+
+nav button{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 8px;
+    border-radius: 8px;
+    border-color: #006A50;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Banner Styles */
+.memorial{
+    width: 300px;
+}
+.ban-items{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 80px 100px;
+    justify-content: space-between;
+    border-radius: 24px;
+}
+.ban-content{
+    margin-right: 64px;
+}
+.memorial{
+    margin-left: 0px;
+}
+
+/* Main Styles */
+.pillars{
+    padding-top: 40px;
+}
+.card-icons{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.cards{
+    background-color: white;
+    border-radius: 8px;
+    margin-inline:calc(10px);
+    padding: 10px;
+}
+.c1{
+    width: 64px;
+}
+.future{
+    padding-top: 40px;
+    margin: 0px;
+}
+.vision-cards{
+    background-color: white;
+    border-radius: 8px;
+    margin-inline: calc(10px);
+    padding: 10px;
+}
+.quote{
+    margin-top: 32px;
+    padding: 30px 24px;
+    background-color: white;
+    border: 0.5px solid #0E0E0E;
+    border-radius: 8px;
+}
+.quote-img{
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    padding-left: 3px;
+    padding-top: 10px;
+}
+.opinion{
+    margin-top: 40px;
+}
+.table-head{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: #C6E4D6;
+    border: 1px solid lightgray;
+    box-shadow: #0E0E0E;
+    padding: 0px 15px;
+}
+.td{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #0E0E0E;
+    border-bottom: 0px;
+    margin: 0;
+    padding: 0 15px;
+}
+.bottom-line{
+    border: 1px solid #0E0E0E;
+}
+.table-button{
+    background-color: #C6E4D6;
+    padding: 10px 14px;
+    border-radius: 8px;
+    margin: 5px;
+}
+.recent-news{
+    padding-top: 20px;
+}
+.news-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sat-pic{
+    width: 408px;
+    border-radius: 8px;
+}
+.satelite{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
