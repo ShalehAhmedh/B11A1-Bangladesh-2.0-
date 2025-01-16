@@ -147,4 +147,25 @@ nav{
     margin-bottom: 20px;
     gap: 30px;
 }
+.donate{
+    display: flex;
+    justify-content: center;
+}
+.headline-font{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+/* Footer Styles */
+
+footer{
+    padding: 40px 0;
+}
+
+.footer-margin{
+    display: flex;
+    align-items: center;
+}
+
+
 
