@@ -19,10 +19,27 @@ body{
 }
 .btn{
     color: white;
+    text-decoration: none;
     background-color: #006A50;
     border-style: none;
     border-radius: 8px;
     padding: 17px 34px;
+}
+.button{
+    color: white;
+    text-decoration: none;
+    background-color: #006A50;
+    border-style: none;
+    border-radius: 8px;
+    padding: 17px 34px;
+}
+
+button:hover{
+    background-color:#C6E4D6;
+}
+
+.table-button:hover{
+    background-color:#006A50;
 }
 
 /* Navigation Styles */
@@ -151,6 +168,20 @@ nav{
     display: flex;
     justify-content: center;
 }
+.tk{
+    padding: 15px 24px;
+    margin-right: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.amount{
+    margin: 20px;
+}
+
 .headline-font{
     font-size: 40px;
     font-weight: 800;
@@ -166,6 +197,34 @@ footer{
     display: flex;
     align-items: center;
 }
-
+.last-sec{
+    background-color:#C6E4D6;
+    border-radius: 8px;
+    margin-top: 32px;
+    padding: 40px 60px;
+}
+.email-area{
+    border: none;
+    border-radius: 8px;
+}
+input[type=email]{
+    padding: 17px 34px;
+    margin-left: 2px;
+}
+.textarea{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #0E0E0E;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    line-height: 1.4;
+    width: 500px;
+    height: 40px;
+}
+.textarea:hover{
+    cursor: pointer;
+    background-color: rgb(213, 187, 238);
+}
 
 
