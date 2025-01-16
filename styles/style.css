@@ -34,13 +34,64 @@ body{
     border-radius: 8px;
     padding: 17px 34px;
 }
-
+.sign-button{
+    color: #006A50;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 8px;
+    width: 90px;
+    height: 40px;
+    border: 1.5px solid;
+}
+.bg-color1{
+    background-color: #548ff531;
+    border-radius: 8px;
+    margin-inline:calc(10px);
+    padding: 25px;
+}
+.bg-color2{
+    background-color: #09a15d2c;
+    border-radius: 8px;
+    margin-inline:calc(10px);
+    padding: 25px;
+}
+.bg-color3{
+    background-color: #F7EBCF;
+    border-radius: 8px;
+    margin-inline:calc(10px);
+    padding: 25px;
+}
+/* The Vision of Future Section Button and Background Styles */
+.card-btn1{
+    color: white;
+    text-decoration: none;
+    background-color: #5490F5;
+    border-style: none;
+    border-radius: 8px;
+    padding: 17px 34px;
+}
+.card-btn2{
+    color: white;
+    text-decoration: none;
+    background-color: #09A15C;
+    border-style: none;
+    border-radius: 8px;
+    padding: 17px 34px;
+}
+.card-btn3{
+    color: white;
+    text-decoration: none;
+    background-color: #FFC239;
+    border-style: none;
+    border-radius: 8px;
+    padding: 17px 34px;
+}
 button:hover{
-    background-color:#C6E4D6;
+    background-color:#00ac81;
 }
 
 .table-button:hover{
-    background-color:#006A50;
+    background-color:#00ac81;
 }
 
 /* Navigation Styles */
@@ -56,6 +107,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 15px;
 }
 
 /* Banner Styles */
@@ -70,6 +122,7 @@ nav{
     height: 250px;
     justify-content: space-between;
     border-radius: 24px;
+    margin-top: 15px;
 }
 .ban-content{
     margin-right: 64px;
@@ -78,15 +131,13 @@ nav{
     color: black;
     opacity: 50%;
 }
-
-
 .memorial{
     margin-left: 0px;
 }
 
 /* Main Styles */
 .pillars{
-    padding-top: 40px;
+    padding-top: 20px;
 }
 .card-icons{
     display: flex;
@@ -116,8 +167,9 @@ nav{
     margin-top: 32px;
     padding: 30px 24px;
     background-color: white;
-    border: 0.5px solid #0E0E0E;
     border-radius: 8px;
+    border: 1px solid;
+    border-color: #0e0e0e2a;
 }
 .quote-img{
     background-image: url(../assets/quote-bg.png);
@@ -126,7 +178,10 @@ nav{
     padding-top: 10px;
 }
 .opinion{
+    background-color: white;
+    border-radius: 8px;
     margin-top: 40px;
+    padding: 18px;
 }
 .table-head{
     display: flex;
@@ -196,6 +251,13 @@ nav{
     font-weight: 800;
 }
 
+.subtitle{
+    color: #0e0e0ed5;
+}
+.desig-style{
+    color: #0e0e0e9d;
+}
+
 /* Footer Styles */
 
 footer{
@@ -203,8 +265,8 @@ footer{
 }
 
 .footer-margin{
-    display: flex;
     align-items: center;
+    margin-right: 10px;
 }
 .last-sec{
     background-color:#C6E4D6;
