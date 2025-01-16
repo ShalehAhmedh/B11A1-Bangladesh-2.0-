@@ -133,11 +133,6 @@ nav{
 .recent-news{
     padding-top: 20px;
 }
-.news-cards{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
 .sat-pic{
     width: 408px;
     border-radius: 8px;
@@ -146,5 +141,10 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: white;
+    border-radius: 8px;
+    padding: 48px;
+    margin-bottom: 20px;
+    gap: 30px;
 }
 
